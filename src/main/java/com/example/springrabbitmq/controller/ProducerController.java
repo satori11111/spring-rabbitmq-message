@@ -1,5 +1,6 @@
-package com.example.springrabbitmq.model;
+package com.example.springrabbitmq.controller;
 
+import com.example.springrabbitmq.model.Message;
 import lombok.RequiredArgsConstructor;
 import org.springframework.amqp.core.DirectExchange;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
